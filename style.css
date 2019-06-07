@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;     
+}
+
+form{
+    margin-bottom: 4%;
+}
+
+.hidden{
+    display: none;
+}
+
+
+.found{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.not-found{
+    color: red;
+}
+
+.results{
+    border: 1px solid black;
+    width: 50%;
+    margin-bottom: 2%;
+}

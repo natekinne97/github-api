@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="github repo finder" content="Find repos based on github handle">
+        <title>Github Finder</title>
+        <link href="style.css" rel="stylesheet" type="text/css" />
+        <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+            crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <h1>Find Github repositories</h1>
+        <h1>Search using Github handle</h1>
+        <form id="search">
+            <input type="text" id="search-term" name="search-term" placeholder="github handle" required>
+            <input type="submit" placeholder="submit">
+        </form>
+        <p class="not-found hidden">Handle not found. Try a different term</p>
+        <section class="found hidden">
+            <h2 class="result-header hidden">Results</h2>
+        </section>
+        <script src="code.js"></script>
+    </body>
+</html>
